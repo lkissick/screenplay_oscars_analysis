@@ -10,7 +10,7 @@ This project analyzes the sentiments of oscar-winning films for both best adapte
     pip install -r requirements.txt
 
 ## Data Source
-Download and palce the data from the following link into the data/ directory:
+Download and place the data from the following link into the data/ directory:
      https://www.kaggle.com/datasets/gufukuro/movie-scripts-corpus/data
 
 ## Running the Scripts
