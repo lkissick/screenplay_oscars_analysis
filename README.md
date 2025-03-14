@@ -10,13 +10,12 @@ This project analyzes the sentiments of oscar-winning films for both best adapte
     pip install -r requirements.txt
 
 ## Data Source
-1. Create a ./data/ directory
-2. Download and place the data from the following link into said ./data/ directory:
+1. Download and place the data from the following link into main directory:
      https://www.kaggle.com/datasets/gufukuro/movie-scripts-corpus/data
 
 ## Running the Scripts
 You must run the scripts in the following order:
-1. Run the preprocessing scripts to process the necessary scripts and place them into a new directory:
+1. Run the preprocessing scripts to process the necessary scripts and automatically place them into a new directory:
     python scripts/preprocessing.py
 2. Run the screenplay analysis script to analysis the data and create your dash app:
     python scripts/screenplay_analysis.py
